@@ -1,0 +1,4 @@
+name = Role Verify
+description = A simple helper module providing dynamic verification of role existence, e.g. for Behat tests.
+package = Example modules
+core = 7.x

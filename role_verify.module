@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * Role Verify module file.
+ */
+
+/**
+ * Implements hook_menu();
+ *
+ * @inheritdoc
+ */
+function role_verify_menu() {
+  $menu_items = array();
+
+  $menu_items['people/permissions/roles/check/%'] = array(
+    'page callback' => '',
+    'page arguments' => array(),
+  );
+
+  return $menu_items;
+}
